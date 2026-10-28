@@ -7,4 +7,4 @@
 
 # Hello there!
 
-_This is in italics_
+_This is in italics!_
