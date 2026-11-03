@@ -1,17 +1,8 @@
 .circle-image {
-  width: 150px;
-  height: 150px;       /* Width and height must match */
+  width: 30%;
+  height: auto;       /* Width and height must match */
   border-radius: 50%;  /* Makes it a circle */
   object-fit: cover;   /* Ensures non-square source images don't stretch */
   float: right;
   margin-left: 5%;
-}
-/* 2. Mobile fix (For screens 600px wide or smaller) */
-@media (max-width: 600px) {
-  .circle-img {
-    float: none;        /* Stops the text from wrapping side-by-side */
-    display: block;     /* Forces the image onto its own line */
-    margin: auto; /* Centers the image and adds space below it */
-    max-width: 100%;    /* Ensures the image never overflows the screen width */
-  }
-}
+} 
