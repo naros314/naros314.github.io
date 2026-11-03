@@ -9,7 +9,7 @@
 <img src="/headshot.png" alt="Nicholas Arosemena" class="circle-image" >
 
 ## Academics
-I’m a fifth year mathematics Ph.D. student at Brown University advised by [Caroline Klivans](https://www.dam.brown.edu/people/cklivans/). I am interested in algebraic combinatorics and graph theory. My research focuses on chip-firing and its generalizations as well as other combinatorial games.
+I’m a fifth year Ph.D. student in the Division of Applied Mathematics at Brown University, advised by [Caroline Klivans](https://www.dam.brown.edu/people/cklivans/). I am interested in algebraic combinatorics and graph theory. My research focuses on chip-firing and its generalizations as well as other combinatorial games.
 
 I graduated from Morehouse College with a BS in Mathematics.
 
