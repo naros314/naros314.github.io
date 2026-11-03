@@ -1,3 +1,4 @@
+import * as esbuild from "esbuild";
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
@@ -50,6 +51,45 @@ export default async function(eleventyConfig) {
 		// Add all <script> content to the `js` bundle (use <script eleventy:ignore> to opt-out)
 		// Supported selectors: https://www.npmjs.com/package/posthtml-match-helper
 		bundleHtmlContentFromSelector: "script",
+		transforms: [
+			async function(content) {
+				// Only intercept and compile when dependencies are imported explicitly
+				if (content.includes("import ") || content.includes("from 'three'")) {
+					try {
+						// esbuild.build requires an entry point on the disk. 
+						// We bypass this using a lightweight inline virtual routing plugin.
+						const result = await esbuild.build({
+							entryPoints: ["<inline-eleventy-bundle>"],
+							bundle: true,
+							minify: process.env.ELEVENTY_RUN_MODE === "build",
+							format: "esm",
+							write: false, // Prevents esbuild from outputting a separate file
+							plugins: [{
+								name: "inline-script-loader",
+								setup(build) {
+									// Intercept your Eleventy inline code blocks string
+									build.onResolve({ filter: /^<inline-eleventy-bundle>$/ }, args => ({
+										path: args.path,
+										namespace: "inline-env",
+									}));
+									build.onLoad({ filter: /.*/, namespace: "inline-env" }, () => ({
+										contents: content,
+										resolveDir: ".", // Pin down the project root directory
+									}));
+								},
+							}],
+						});
+
+						// Return the raw compiled code payload directly back into Eleventy's pipeline
+						return result.outputFiles[0].text;
+					} catch (err) {
+						console.error("Esbuild bundle error:", err);
+						return content; // Fall back safely to raw code if compile failure triggers
+					}
+				}
+				return content;
+			}
+		]
 	});
 
 	// Official plugins

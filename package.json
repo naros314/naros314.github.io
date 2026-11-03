@@ -37,11 +37,13 @@
 		"@11ty/eleventy-plugin-rss": "^3.0.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
 		"cross-env": "^10.1.0",
+		"esbuild": "^0.28.2",
 		"luxon": "^3.7.2",
 		"prismjs": "^1.30.0",
 		"zod": "^4.4.3"
 	},
 	"dependencies": {
-		"@zachleat/heading-anchors": "^1.0.5"
+		"@zachleat/heading-anchors": "^1.0.5",
+		"three": "^0.186.1"
 	}
 }

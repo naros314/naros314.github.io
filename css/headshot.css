@@ -1,0 +1,8 @@
+.circle-image {
+  width: 150px;
+  height: 150px;       /* Width and height must match */
+  border-radius: 50%;  /* Makes it a circle */
+  object-fit: cover;   /* Ensures non-square source images don't stretch */
+  float: right;
+  margin-left: 5%;
+}
