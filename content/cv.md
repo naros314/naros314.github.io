@@ -5,4 +5,4 @@
 };
 ---
 
-<iframe src="/NicholasArosemenaCV.pdf" type="application/pdf" width="100%" height="800px" />
+<iframe src="./NicholasArosemenaCV.pdf" type="application/pdf" width="100%" height="800px" />
