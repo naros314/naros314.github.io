@@ -5,4 +5,5 @@
 };
 ---
 
-<iframe src="/NicholasArosemenaCV.pdf" type="application/pdf" width="100%" height="800px"></iframe>
+{% embedPDF "pdf-viewer-1", "/NicholasArosemenaCV.pdf" %}
+ 
