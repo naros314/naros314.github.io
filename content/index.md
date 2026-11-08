@@ -6,7 +6,8 @@
 ---
 
 # Hello there! 
-<img src="/headshot.png" alt="Nicholas Arosemena" class="circle-image" >
+{% image "/headshot.png", "My Headshot" %}
+
 
 ## Academics
 I’m a fifth year Ph.D. student in the Division of Applied Mathematics at Brown University, advised by [Caroline Klivans](https://www.dam.brown.edu/people/cklivans/). I am interested in algebraic combinatorics and graph theory. My research focuses on chip-firing and its generalizations as well as other combinatorial games.
