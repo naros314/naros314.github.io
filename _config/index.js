@@ -18,3 +18,7 @@ EmbedPDF.init({
 </script>
   `;
 };
+
+export {
+    embedPDF
+};
