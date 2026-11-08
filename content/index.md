@@ -6,7 +6,7 @@
 ---
 
 # Hello there! 
-{% image "/headshot.png", "My Headshot" %}
+<img src="/headshot.png">
 
 
 ## Academics
