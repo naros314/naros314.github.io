@@ -5,5 +5,5 @@
 };
 ---
 
-{% embedPDF "pdf-viewer-1", "/NicholasArosemenaCV.pdf" %}
+{% embedPDF "pdf-viewer-1", "./NicholasArosemenaCV.pdf" %}
  
