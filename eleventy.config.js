@@ -160,7 +160,7 @@ export default async function(eleventyConfig) {
 		return (new Date()).toISOString();
 	});
 	
-	eleventyConfig.addAsyncShortcode("embedPDF", embedPDF);
+	eleventyConfig.addShortcode("embedPDF", embedPDF);
 
 	// Features to make your build faster (when you need them)
 
