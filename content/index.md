@@ -6,7 +6,7 @@
 ---
 
 
-<img src="/headshot.png" alt="Nicholas Arosemena" eleventy:ignore>
+<img src="/headshot.png" alt="Nicholas Arosemena" class="circle-image" eleventy:ignore>
 
 
 ## About Me
