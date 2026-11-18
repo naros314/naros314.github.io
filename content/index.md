@@ -24,5 +24,7 @@ Mentoring the next generation of mathematicians is so important. I love engaging
 - Teaching Assistant, APMA 1650 Statistical Fall 2023 - Spring 2024
 - MAY-UP Graduate Teaching Assistant Summer 2023
 
+## Projects
+- [3D Chipfiring](/3Dchipfiring.html)
 
 
