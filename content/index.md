@@ -17,7 +17,7 @@ I graduated from Morehouse College with a BS in Mathematics.
 **Contact:** [nicholas_arosemena@brown.edu](mailto:nicholas_arosemena@brown.edu)
 
 ## Teaching and Mentorship
-Mentoring the next generation of mathematicians is so important. I love engaging with young mathematicians on accesible projects to practice communicating mathematics to broad audiences.
+Mentoring the next generation of mathematicians is so important. I love engaging with young mathematicians on accessible projects to practice communicating mathematics to broad audiences.
 
 - Directed Reading Program Mentor Fall 2025
 - MSRI-UP Graduate Teaching Assistant Summer 2025
