@@ -22,7 +22,7 @@ Mentoring the next generation of mathematicians is so important. I love engaging
 - Directed Reading Program Mentor Fall 2025
 - MSRI-UP Graduate Teaching Assistant Summer 2025
 - Teaching Assistant, APMA 1650 Statistical Fall 2023 - Spring 2024
-- [MAY-UP](/https://www.vimeo.com/846755162) Graduate Teaching Assistant Summer 2023
+- [MAY-UP](https://www.vimeo.com/846755162) Graduate Teaching Assistant Summer 2023
 
 ## Research Projects
 - **[3D chipfiring](/3Dchipfiring.html)**<br>
