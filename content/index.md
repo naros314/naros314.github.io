@@ -26,12 +26,12 @@ Mentoring the next generation of mathematicians is so important. I love engaging
 
 ## Research Projects
 - **[3D chipfiring](/3Dchipfiring.html)**<br>
-  Simulation software for chipfiring on a 3-dimensional grid
+  <small>Simulation software for chipfiring on a 3-dimensional grid<small>
 - **Flowfiring**<br>
-  Simulation software for higher dimensional chipfiring
+  <small>Simulation software for higher dimensional chipfiring<small>
 - **The Critical Parameter of Chipfiring Dynamics**<br>
-  The group structure inherent to the critical configurations of an undirected graph is well known, but the identity element remains difficult to compute. Presented here is a new way to compute the identity element of the critical group as a pulse of height \(\mu\).
+  <small>The group structure inherent to the critical configurations of an undirected graph is well known, but the identity element remains difficult to compute. Presented here is a new way to compute the identity element of the critical group as a pulse of height \(\mu\).<small>
 - **Avalanche Polynomials of Threshold Graphs**<br>
-  The Abelian Sandpile Model (ASM) is a classic model of self-organized criticality whose recurrent configurations are tightly linked to graph algebraic combinatorics. In this paper, we study the \emph{avalanche polynomial}, which tracks the distribution of total vertex firings after single-chip additions.
+  <small>The Abelian Sandpile Model (ASM) is a classic model of self-organized criticality whose recurrent configurations are tightly linked to graph algebraic combinatorics. In this paper, we study the \emph{avalanche polynomial}, which tracks the distribution of total vertex firings after single-chip additions.<small>
 
 
