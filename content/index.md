@@ -25,6 +25,14 @@ Mentoring the next generation of mathematicians is so important. I love engaging
 - MAY-UP Graduate Teaching Assistant Summer 2023
 
 ## Projects
-- [3D Chipfiring](/3Dchipfiring.html)
+- [3D chipfiring](/3Dchipfiring.html)
+
+Simulation software for chipfiring on a 3-dimensional grid
+- Flowfiring
+
+Simulation software for higher dimensional chipfiring
+- The Critical Parameter of Chipfiring Dynamics
+
+- Avalanche Polynomials of Threshold Graphs 
 
 
