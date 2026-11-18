@@ -22,17 +22,16 @@ Mentoring the next generation of mathematicians is so important. I love engaging
 - Directed Reading Program Mentor Fall 2025
 - MSRI-UP Graduate Teaching Assistant Summer 2025
 - Teaching Assistant, APMA 1650 Statistical Fall 2023 - Spring 2024
-- MAY-UP Graduate Teaching Assistant Summer 2023
+- [MAY-UP](/https://www.vimeo.com/846755162) Graduate Teaching Assistant Summer 2023
 
-## Projects
-- [3D chipfiring](/3Dchipfiring.html)
-
-Simulation software for chipfiring on a 3-dimensional grid
-- Flowfiring
-
-Simulation software for higher dimensional chipfiring
-- The Critical Parameter of Chipfiring Dynamics
-
-- Avalanche Polynomials of Threshold Graphs 
+## Research Projects
+- **[3D chipfiring](/3Dchipfiring.html)**<br>
+  Simulation software for chipfiring on a 3-dimensional grid
+- **Flowfiring**<br>
+  Simulation software for higher dimensional chipfiring
+- **The Critical Parameter of Chipfiring Dynamics**<br>
+  The group structure inherent to the critical configurations of an undirected graph is well known, but the identity element remains difficult to compute. Presented here is a new way to compute the identity element of the critical group as a pulse of height \(\mu\).
+- **Avalanche Polynomials of Threshold Graphs**<br>
+  The Abelian Sandpile Model (ASM) is a classic model of self-organized criticality whose recurrent configurations are tightly linked to graph algebraic combinatorics. In this paper, we study the \emph{avalanche polynomial}, which tracks the distribution of total vertex firings after single-chip additions.
 
 
