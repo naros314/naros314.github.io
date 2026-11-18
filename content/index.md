@@ -27,7 +27,7 @@ Mentoring the next generation of mathematicians is so important. I love engaging
 ## Research Projects
 - **[3D chipfiring](/3Dchipfiring.html)**<br>
   <small>Simulation software for chipfiring on a 3-dimensional grid<small>
-- **Flowfiring**<br>
+- **[Flowfiring](https://jasonheflinger.com/extra/flow/flow)**<br>
   <small>Simulation software for higher dimensional chipfiring<small>
 - **The Critical Parameter of Chipfiring Dynamics**<br>
   <small>The group structure inherent to the critical configurations of an undirected graph is well known, but the identity element remains difficult to compute. Presented here is a new way to compute the identity element of the critical group as a pulse of height \(\mu\).<small>
